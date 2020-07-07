@@ -45,11 +45,11 @@ Running the Solution
 Available Commands
 -----------
 
-- There are 5 basic commands (case insensitive)
-  PLACE X,Y,F
-  MOVE
-  LEFT
-  RIGHT
+- There are 5 basic commands (case insensitive)\
+  PLACE X,Y,F\
+  MOVE\
+  LEFT\
+  RIGHT\
   REPORT
 - `PLACE X,Y,F` will place the robot on the table at the starting position of (X,Y) in cartesian coordinates
   facing in the direction F (NORTH, EAST, SOUTH, WEST). The starting coordinates is limited to the table
@@ -57,15 +57,15 @@ Available Commands
   before any other command is received by the robot.
 - `MOVE` will move the robot by 1 space in the direction it is currently facing. Should the movement cause
   the robot to fall off the table, it will disregard the command.
-- `LEFT` will rotate the robot -90 degrees
-  (NORTH to WEST)
-  (WEST to SOUTH)
-  (SOUTH to EAST)
+- `LEFT` will rotate the robot -90 degrees\
+  (NORTH to WEST)\
+  (WEST to SOUTH)\
+  (SOUTH to EAST)\
   (EAST to NORTH)
-- `RIGHT` will rotate the robot 90 degrees
-  (NORTH to EAST)
-  (EAST to SOUTH)
-  (SOUTH to WEST)
+- `RIGHT` will rotate the robot 90 degrees\
+  (NORTH to EAST)\
+  (EAST to SOUTH)\
+  (SOUTH to WEST)\
   (WEST to NORTH)
 - `REPORT` will provide a final output of the robot's current position in the following format
   `X,Y,F` where X is the location in the x-axis, Y is the location in the y-axis, and F is the direction
